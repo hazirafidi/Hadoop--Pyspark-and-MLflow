@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hadoop is an open source framwork that facilitates on storing and processing large datasets. Spark is an open source framework for big data from data streaing, ETL and Machine Learning. MLFlow is an open source framework that enable to monitor, tracking and deploy ML projects. This repo demonstrate on how to integrate of these framweork as a data scientist/data analyst.
+Hadoop is an open source framework that facilitates on storing and processing large datasets. Spark is an open source framework for big data from data streaming, ETL and Machine Learning. MLFlow is an open source framework that enable to monitor, tracking and deploy ML projects. This repo demonstrate on how to integrate of these framework as a data scientist/data analyst.
 
 
 ### Instruction
