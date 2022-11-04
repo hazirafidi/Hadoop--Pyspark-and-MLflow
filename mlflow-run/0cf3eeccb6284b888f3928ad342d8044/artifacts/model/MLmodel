@@ -1,0 +1,29 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.3
+mlflow_version: 1.30.0
+model_uuid: 1e9c7eb1df114d90b47e9421bc6fd5fb
+run_id: 0cf3eeccb6284b888f3928ad342d8044
+signature:
+  inputs: '[{"name": "merchant", "type": "long"}, {"name": "category", "type": "long"},
+    {"name": "amt", "type": "double"}, {"name": "gender", "type": "long"}, {"name":
+    "city", "type": "long"}, {"name": "state", "type": "long"}, {"name": "zip", "type":
+    "long"}, {"name": "lat", "type": "double"}, {"name": "long", "type": "double"},
+    {"name": "city_pop", "type": "long"}, {"name": "job", "type": "long"}, {"name":
+    "merch_lat", "type": "double"}, {"name": "merch_long", "type": "double"}, {"name":
+    "year", "type": "long"}, {"name": "month", "type": "long"}, {"name": "day", "type":
+    "long"}, {"name": "hour", "type": "long"}, {"name": "minute", "type": "long"},
+    {"name": "second", "type": "long"}, {"name": "year_birth", "type": "long"}, {"name":
+    "month_birth", "type": "long"}, {"name": "day_birth", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2022-11-03 15:06:22.528971'
